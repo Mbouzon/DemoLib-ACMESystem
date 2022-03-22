@@ -1,1 +1,3 @@
+* linguist-documentation=false
+* linguist-vendored
 *.xaml linguist-language=UiPath
