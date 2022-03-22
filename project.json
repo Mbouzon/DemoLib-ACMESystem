@@ -1,0 +1,65 @@
+{
+  "name": "DemoLib-ACMESystem",
+  "description": "Using ACME System through a LIB to login, logout and workitems navigation",
+  "main": "ACME_Open.xaml",
+  "dependencies": {
+    "ACMESystem1UILibrary": "[1.0.0]",
+    "UiPath.Excel.Activities": "2.9.3",
+    "UiPath.Mail.Activities": "1.9.3",
+    "UiPath.System.Activities": "20.10.1",
+    "UiPath.UIAutomation.Activities": "20.10.6"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b9ee954c-028d-40d8-bdc3-49a27f9a1a05",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ACME_Open.xaml",
+      "uniqueId": "704f9a41-ba6a-4956-b5f0-80489a65bcc6",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
