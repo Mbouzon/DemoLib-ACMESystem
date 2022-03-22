@@ -1,1 +1,2 @@
+*.xaml linguist-detectable=false
 *.xaml linguist-language=UiPath-Studio
